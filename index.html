@@ -22,7 +22,7 @@
   <script type="text/template" id="search-list-template">
     <ul>
     <% _.each(beaches, function(beach) { %>
-      <li><a href="#"><%- beach.name %></a></li>
+      <li><a href="#<%- beach.id %>"><%- beach.name %></a></li>
     <% }) %>
     </ul>
   </script>
